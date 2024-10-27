@@ -1,0 +1,29 @@
+.logo {
+    height: 60px; 
+    width: auto; 
+    border-radius: 50%;
+  }
+  
+  header {
+    display: flex;
+    align-items: center; 
+    background-color: rgb(131, 110, 240); 
+    width: 100%;
+  }
+  
+  nav ul {
+    list-style-type: none; 
+    display: flex; 
+    margin: 0; 
+    padding: 0; 
+  }
+  
+  nav li {
+    margin-left: 20px; /* Space between links */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: #6A0DAD; /* Example link color */
+  }
+  
