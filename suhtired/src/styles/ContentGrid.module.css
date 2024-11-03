@@ -1,0 +1,43 @@
+.contentHeading {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 0 30px; 
+    
+}
+
+.contentHeading h2 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgba(68, 0, 255, 0.3);
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 80px;
+    border-top: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    
+}
+
+.about {
+    
+    border-radius:  35px 0 0 0;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgba(68, 0, 255, 0.3);
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px 10px 60px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.gamingJourney {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius:  0 35px 0 0;
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    text-shadow: 4px 4px 8px rgba(68, 0, 255, 0.3);
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 10px 60px 10px 20px;
+}
+
