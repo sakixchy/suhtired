@@ -1,20 +1,117 @@
 @font-face {
-    font-family: 'nunito';
-    src: url('../assets/fonts/Nunito/Nunito-VariableFont_wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-  }
+  font-family: 'Poppins';
+  src: url('./assets/fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400; 
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/nunito/static/Nunito-Regular.ttf') format('truetype');
+  font-weight: 400; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/nunito/static/Nunito-SemiBold.ttf') format('truetype');
+  font-weight: 600; 
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/fonts/nunito/static/Nunito-Bold.ttf') format('truetype');
+  font-weight: 700; 
+  font-style: normal;
+}
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 * {
-    box-sizing: border-box; 
-    font-family: nunito, sans-serif;
-  }
+  box-sizing: border-box;
+}
 
- body {
-    margin: 0; 
-    padding: 0; 
-    background-color: rgb(156, 180, 250);
-    overscroll-behavior: none;
-   
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+  background-color: rgb(156, 180, 250);
+  overscroll-behavior: none;
+}
+
+nav {
+  margin-left: auto; 
+}
+
+nav ul {
+  list-style-type: none; 
+  display: flex; 
+  margin: 0; 
+  padding: 0; 
+}
+
+nav li {
+  margin-left: 20px; 
+}
+
+nav a {
+  text-decoration: none; 
+  color: #6A0DAD;
+  background-color: white; 
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.25); 
+  color: rgb(255, 255, 255);
+  box-shadow: 4px 4px 12px rgba(154, 84, 235, 0.2); 
+  transform: translateY(-2px); 
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+  height: 75px;
+  width: 100%;
+  padding: 0 20px;
+  border-bottom: 3px solid rgb(255, 0, 0);
+  font-family: 'nunito', sans-serif;
+  font-weight: 700;
+}
+
+.content {
+  flex: 1; 
+  padding-top: 75px; 
+  font-family: 'poppins', sans-serif;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: 'poppins', sans-serif;
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+  margin-top: auto; 
+  position: relative;
+  bottom: 0;
 }

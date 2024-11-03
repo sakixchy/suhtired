@@ -7,7 +7,8 @@
 
 .siteName {
   margin: 0; 
-  font-size: 2em; 
+  font-size: 3.5em; 
+  font-weight: 700;
   color: rgb(255, 255, 255); 
 }
 
@@ -18,53 +19,7 @@
     margin-right: 10px;
   }
   
-  header {
-    position: fixed;
-    top: 0;
-    z-index: 99;
-    display: flex;
-    align-items: center; 
-    background-color: rgb(0, 0, 0); 
-    height: 75px;
-    width: 100%;
-    padding: 0 20px;
-    border-bottom: 3px solid rgb(255, 0, 0);
-  }
-
-  
-  nav {
-    margin-left: auto; 
-  }
-
-  nav ul {
-    list-style-type: none; 
-    display: flex; 
-    margin: 0; 
-    padding: 0; 
-  }
-  
-  nav li {
-    margin-left: 20px; 
-  }
-  
-  nav a {
-    text-decoration: none; 
-    color: #6A0DAD;
-    background-color: white; 
-    padding: 10px 20px;
-    border-radius: 20px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  nav a:hover {
-    background-color: rgba(255, 255, 255, 0.25); /* Change background to black on hover */
-    color: white; /* Change text color to white for better contrast */
-    box-shadow: 4px 4px 12px rgba(154, 84, 235, 0.2); /* Optional: retain shadow for a raised effect */
-    transform: translateY(-2px); /* Maintain upward shift effect */
-  }
-
-  .icon {
+.icon {
     color:rgb(156, 180, 250);
     margin-right: 8px; 
     font-size: 1.2em;
